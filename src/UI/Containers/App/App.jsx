@@ -1,13 +1,12 @@
 import SiteLayout from "../../Components/SiteLayout/SiteLayout";
-import UploadInput from "../Components/UploadInput/UploadInput";
+import React from 'react';
 
 const App = () => {
 
-  return (
-      <SiteLayout>
-        <UploadInput/>
-      </SiteLayout>
-  )
+    return (
+        <SiteLayout/>
+
+    )
 }
 
 export default App;
